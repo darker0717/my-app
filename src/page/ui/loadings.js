@@ -1,0 +1,45 @@
+import React, { Component } from 'react'
+import {Card,Button, Spin,Icon,Alert} from 'antd';
+import './ui.less';
+export default class Loadings extends Component {
+    render() {
+        const icon=<Icon type="loading" style={{fontSize:24}}/>
+        const iconLoading=<Icon type="loading" style={{fontSize:24}}/>
+        return (
+            <div>
+               <Card title="Spin用法" className="card-wrap">
+                <Spin size="small"/>
+                <Spin style={{marginLeft:10}}/>
+                <Spin size="large"/>
+                <Spin indicator={icon} style={{marginLeft:10}}/>
+                </Card> 
+                <Card title="内容遮罩" className="card-wrap">
+                  <Alert
+                  message="React"
+                  description="欢迎来到react高级实战课程"
+                  type="info"
+                  />
+                <Alert
+                  message="React"
+                  description="欢迎来到react高级实战课程"
+                  type="warning"
+                  />
+                  <Spin tip="加载中……">
+                   <Alert
+                  message="React"
+                  description="欢迎来到react高级实战课程"
+                  type="warning"
+                  />
+                  </Spin>
+                  <Spin indicator={iconLoading}>
+                   <Alert
+                  message="React"
+                  description="欢迎来到react高级实战课程"
+                  type="warning"
+                  />
+                  </Spin>
+                </Card>
+            </div>
+        )
+    }
+}
