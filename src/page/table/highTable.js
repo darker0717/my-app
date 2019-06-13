@@ -193,93 +193,6 @@ export default class BasicTable extends React.Component {
                 }
             },
             {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            },
-            {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            }, {
-                title: '生日',
-                key: 'birthday',
-                width: 120,
-                dataIndex: 'birthday'
-            },
-            {
                 title: '地址',
                 key: 'address',
                 width: 120,
@@ -445,7 +358,7 @@ export default class BasicTable extends React.Component {
                         scroll={{y:240}}
                     />
                 </Card>
-                <Card title="左侧固定" style={{ margin: '10px 0' }}>
+                {/* <Card title="左侧固定" style={{ margin: '10px 0' }}>
                     <Table
                         bordered
                         columns={columns2}
@@ -453,8 +366,8 @@ export default class BasicTable extends React.Component {
                         pagination={false}
                         scroll={{ x: 2650 }}
                     />
-                </Card>
-                <Card title="表格排序" style={{ margin: '10px 0' }}>
+                </Card> */}
+                {/* <Card title="表格排序" style={{ margin: '10px 0' }}>
                     <Table
                         bordered
                         columns={columns3}
@@ -462,7 +375,7 @@ export default class BasicTable extends React.Component {
                         pagination={false}
                         onChange={this.handleChange}
                     />
-                </Card>
+                </Card> */}
                 <Card title="操作按钮" style={{ margin: '10px 0' }}>
                     <Table
                         bordered

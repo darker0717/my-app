@@ -16,8 +16,9 @@ export default class Header extends Component {
          this.setState({
              sysTime
          })
-         this.getWeatherAPIData();
+        //  this.getWeatherAPIData();
         },1000)
+        this.getWeatherAPIData();
     }
     //调用百度天气API，pomise()封装，调用axios模块
     getWeatherAPIData(){

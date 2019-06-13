@@ -110,10 +110,10 @@ class FilterForm extends React.Component{
                                 style={{width:100}}
                                 placeholder="全部"
                             >
-                                <Option value="">全部</Option>
-                                <Option value="1">北京市</Option>
-                                <Option value="2">天津市</Option>
-                                <Option value="3">深圳市</Option>
+                                <Option value="" key={"1"}>全部</Option>
+                                <Option value="1" key={"2"}>北京市</Option>
+                                <Option value="2" key={"3"}>天津市</Option>
+                                <Option value="3" key={"4"}>深圳市</Option>
                             </Select>
                         )
                     }
